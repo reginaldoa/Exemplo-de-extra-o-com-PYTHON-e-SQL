@@ -4,14 +4,14 @@ import re
 import html
 from bs4 import BeautifulSoup
 
-# Função para remover tags HTML de uma string
+# Função para remover tags HTML de uma string (caso sua query não possua HTML, não irá interferir em nada)
 def remove_html_tags(text):
     if text is None:
         return ''
     clean = re.compile('<.*?>')
     return re.sub(clean, '', str(text))
 
-# EXTRAÇÃO DA BASE INTEIRA DA SELEME CONSULTING
+# aqui coloque as suas credenciais reais.
 server = '000.00.00.000'
 database = 'xxx'
 username = 'xxx'
@@ -70,6 +70,6 @@ for i, (key, df) in enumerate(dfs.items()):
 
 
 
-
+#Um print, para saberquando o código terminar de ser executado.
 print("-----------------------------------------------------------------------------------------------------------------------------------------------------------------")
 print("Querys Realizadas com Sucesso!")
