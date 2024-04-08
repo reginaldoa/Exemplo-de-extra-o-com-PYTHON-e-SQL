@@ -1,4 +1,4 @@
-# Exemplo-de-extra-o-com-PYTHON-e-SQL
+# Exemplo-de-extracao-com-PYTHON-e-SQL
 
 Este script em Python foi feito para se conectar a um banco de dados SQL Server, executar consultas SQL especificadas e salvar os resultados como arquivos CSV. 
 Isso Pode ajudar você a criar BACKUPS, ou até mesmo levar as informações para ferramentas de visualizações (em casos Específicos) .
